@@ -2,6 +2,8 @@
 
 Serving [StarRailRes](https://github.com/Mar-7th/StarRailRes) static JSON files.
 
+Used by [Relic Harmonizer](https://relicharmonizer.com).
+
 ## Overview
 
 Endpoints are broken down into 3 main components: base, language, and endpoint.
@@ -166,3 +168,4 @@ https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_por
 
 - StarRailRes: [Mar-7th/StarRailRes](https://github.com/Mar-7th/StarRailRes)
 - Game data source: [Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData)
+- My other project, Relic Harmonizer: [https://relicharmonizer.com](https://relicharmonizer.com)
