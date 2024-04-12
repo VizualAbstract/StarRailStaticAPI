@@ -7,10 +7,10 @@ Serving [StarRailRes](https://github.com/Mar-7th/StarRailRes) static JSON files.
 Endpoints are broken down into 3 main components: base, language, and endpoint.
 
 ```
-https://{base}/{language}/{endpoint}.json
+https://{base_url}/{language}/{endpoint}.json
 ```
 
-### URL
+### Base URL
 
 Start with the base URL:
 
@@ -72,7 +72,7 @@ This pattern will allow you to get your desired resource in the desired language
 https://vizualabstract.github.io/StarRailResStaticAPI/db/en/achievements.json
 ```
 
-## Example Endpoints
+### Example Endpoints
 
 - [en/avatars.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/avatars.json)
 - [en/character_promotions.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/character_promotions.json)
@@ -100,7 +100,67 @@ https://vizualabstract.github.io/StarRailResStaticAPI/db/en/achievements.json
 
 ## Images
 
-I'm thinking about it.
+Many of the resources with endpoints have references to images and icons. This project's sole focus is to serve files as they are from their source repos.
+
+Because of this, I've limited myself to only moving folders into directories I feel will make consumption of the API easier to understand.
+
+This means zero file editing.
+
+```
+https://{base_image_url}/{asset_path}
+```
+
+
+So while the data may provide an image URL, it's only a path. For example, March 7th:
+
+```
+"1001": {
+    "id": "1001",
+    "name": "March 7th",
+    "tag": "mar7th",
+    "rarity": 4,
+    "path": "Knight",
+    "element": "Ice",
+    "icon": "icon/character/1001.png",
+    "preview": "image/character_preview/1001.png",
+    "portrait": "image/character_portrait/1001.png"
+}
+```
+
+Here, there are 3 asset files associated with her: an icon and two images.
+
+To access their images, you'll need to prefix each URL with the base path to the asset directory, then append these paths to get the full image URL.
+
+### Base Image URL
+
+This path will allow you to access both icons and images
+
+```
+vizualabstract.github.io/StarRailResStaticAPI/assets
+```
+
+### Asset Path
+
+As long as you use the path directly provided by the endpoint, you shouldn't have any issues accessing the image file. Each one already comes prefixed with either `icon` and `image`, matching the directory structure of the assets folder.
+
+- Icon: `icon/character/1001.png`
+- Image: `image/character_portrait/1001.png`
+
+Extension already included.
+
+### Full URL
+
+```
+https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png
+```
+
+### Example Images
+
+- [icon/character/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/icon/character/1001.png)
+- [image/character_preview/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_preview/1001.png)
+- [image/character_portrait/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png)
+
+![](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png)
 
 ## Links
 
