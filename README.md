@@ -160,7 +160,7 @@ https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_por
 - [image/character_preview/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_preview/1001.png)
 - [image/character_portrait/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png)
 
-![](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png)
+![](https://vizualabstract.github.io/StarRailResStaticAPI/assets/icon/character/1001.png)
 
 ## Links
 
