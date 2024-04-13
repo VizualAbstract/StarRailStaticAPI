@@ -1,4 +1,4 @@
-# StarRailResStaticAPI
+# StarRailStaticAPI
 
 Serving [StarRailRes](https://github.com/Mar-7th/StarRailRes) static JSON files.
 
