@@ -17,7 +17,7 @@ https://{base_url}/{language}/{endpoint}.json
 Start with the base URL:
 
 ```
-vizualabstract.github.io/StarRailResStaticAPI/db/
+vizualabstract.github.io/StarRailStaticAPI/db/
 ```
 
 ### Language
@@ -71,34 +71,34 @@ After selecting the language, add the specific endpoint you want to access. Here
 This pattern will allow you to get your desired resource in the desired language.
 
 ```
-https://vizualabstract.github.io/StarRailResStaticAPI/db/en/achievements.json
+https://vizualabstract.github.io/StarRailStaticAPI/db/en/achievements.json
 ```
 
 ### Example Endpoints
 
-- [en/avatars.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/avatars.json)
-- [en/character_promotions.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/character_promotions.json)
-- [en/character_ranks.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/character_ranks.json)
-- [en/character_skill_trees.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/character_skill_trees.json)
-- [en/character_skills.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/character_skills.json) 
-- [en/characters.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/characters.json) 
-- [en/descriptions.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/descriptions.json) 
-- [en/elements.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/elements.json) 
-- [en/items.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/items.json) 
-- [en/light_cone_promotions.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/light_cone_promotions.json) 
-- [en/light_cone_ranks.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/light_cone_ranks.json) 
-- [en/light_cones.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/light_cones.json) 
-- [en/nickname.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/nickname.json) 
-- [en/paths.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/paths.json) 
-- [en/properties.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/properties.json) 
-- [en/relic_main_affixes.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/relic_main_affixes.json) 
-- [en/relic_sets.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/relic_sets.json) 
-- [en/relic_sub_affixes.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/relic_sub_affixes.json) 
-- [en/relics.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/relics.json) 
-- [en/simulated_blessings.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/simulated_blessings.json) 
-- [en/simulated_blocks.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/simulated_blocks.json) 
-- [en/simulated_curios.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/simulated_curios.json) 
-- [en/simulated_events.json](https://vizualabstract.github.io/StarRailResStaticAPI/db/en/simulated_events.json)
+- [en/avatars.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/avatars.json)
+- [en/character_promotions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_promotions.json)
+- [en/character_ranks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_ranks.json)
+- [en/character_skill_trees.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_skill_trees.json)
+- [en/character_skills.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_skills.json) 
+- [en/characters.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/characters.json) 
+- [en/descriptions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/descriptions.json) 
+- [en/elements.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/elements.json) 
+- [en/items.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/items.json) 
+- [en/light_cone_promotions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cone_promotions.json) 
+- [en/light_cone_ranks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cone_ranks.json) 
+- [en/light_cones.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cones.json) 
+- [en/nickname.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/nickname.json) 
+- [en/paths.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/paths.json) 
+- [en/properties.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/properties.json) 
+- [en/relic_main_affixes.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_main_affixes.json) 
+- [en/relic_sets.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_sets.json) 
+- [en/relic_sub_affixes.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_sub_affixes.json) 
+- [en/relics.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relics.json) 
+- [en/simulated_blessings.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_blessings.json) 
+- [en/simulated_blocks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_blocks.json) 
+- [en/simulated_curios.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_curios.json) 
+- [en/simulated_events.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_events.json)
 
 ## Images
 
@@ -153,16 +153,16 @@ Extension already included.
 ### Full URL
 
 ```
-https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png
+https://vizualabstract.github.io/StarRailStaticAPI/assets/image/character_portrait/1001.png
 ```
 
 ### Example Images
 
-- [icon/character/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/icon/character/1001.png)
-- [image/character_preview/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_preview/1001.png)
-- [image/character_portrait/1001.png](https://vizualabstract.github.io/StarRailResStaticAPI/assets/image/character_portrait/1001.png)
+- [icon/character/1001.png](https://vizualabstract.github.io/StarRailStaticAPI/assets/icon/character/1001.png)
+- [image/character_preview/1001.png](https://vizualabstract.github.io/StarRailStaticAPI/assets/image/character_preview/1001.png)
+- [image/character_portrait/1001.png](https://vizualabstract.github.io/StarRailStaticAPI/assets/image/character_portrait/1001.png)
 
-![](https://vizualabstract.github.io/StarRailResStaticAPI/assets/icon/character/1001.png)
+![](https://vizualabstract.github.io/StarRailStaticAPI/assets/icon/character/1001.png)
 
 ## Links
 
