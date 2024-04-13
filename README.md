@@ -138,7 +138,7 @@ To access their images, you'll need to prefix each URL with the base path to the
 This path will allow you to access both icons and images
 
 ```
-vizualabstract.github.io/StarRailResStaticAPI/assets
+vizualabstract.github.io/StarRailStaticAPI/assets
 ```
 
 ### Asset Path
