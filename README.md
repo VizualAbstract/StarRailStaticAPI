@@ -164,8 +164,36 @@ https://vizualabstract.github.io/StarRailStaticAPI/assets/image/character_portra
 
 ![](https://vizualabstract.github.io/StarRailStaticAPI/assets/icon/character/1001.png)
 
+## StarRailAPI
+
+I created a query client to give users an easy way to use and work with the data found here. Using a series of chainable methods, you'll be able to combine several of the endpoints into a useable data object. This should make it easier to work with this otherwise fragmented data.
+
+See [VizualAbstract/star-rail-api](https://github.com/VizualAbstract/star-rail-api) for more detials
+
+**Example**
+
+```javascript
+import { CharacterIDs, CharactersClient } from 'star-rail-api';
+
+const characters = new CharactersClient();
+
+characters
+  .withRanks()
+  .withSkills()
+  .withSkillTrees()
+  .withImages()
+  .getByID(CharacterIDs.DanHengImbibitorLunae)
+  .then((resp) => {
+    window.console.log(resp);
+  })
+  .catch((error) => {
+    window.console.error(error);
+  });
+```
+
 ## Links
 
+- StarRailStaticAPI query client: [VizualAbstract/star-rail-api](https://github.com/VizualAbstract/star-rail-api) 
 - StarRailRes: [Mar-7th/StarRailRes](https://github.com/Mar-7th/StarRailRes)
 - Game data source: [Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData)
 - My other project, Relic Harmonizer: [https://relicharmonizer.com](https://relicharmonizer.com)
