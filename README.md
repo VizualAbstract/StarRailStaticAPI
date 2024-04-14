@@ -34,7 +34,7 @@ Append the language code to the base URL. For example, if you want to use Englis
 - Korean: `kr`
 - Portuguese: `pt`
 - Russian: `ru`
-- Taiwanese: `th`
+- Thai: `th`
 - Vietnamese: `vi`
 
 ### Endpoint
