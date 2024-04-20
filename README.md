@@ -1,6 +1,6 @@
 # StarRailStaticAPI
 
-Serving [StarRailRes](https://github.com/Mar-7th/StarRailRes) static JSON files.
+[StarRailStaticAPI](https://github.com/VizualAbstract/StarRailStaticAPI) serves [StarRailRes](https://github.com/Mar-7th/StarRailRes) as a static API.
 
 Used by [Relic Harmonizer](https://relicharmonizer.com).
 
@@ -76,28 +76,29 @@ https://vizualabstract.github.io/StarRailStaticAPI/db/en/achievements.json
 
 ### Example Endpoints
 
+- [en/achievements.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/achievements.json)
 - [en/avatars.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/avatars.json)
 - [en/character_promotions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_promotions.json)
 - [en/character_ranks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_ranks.json)
 - [en/character_skill_trees.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_skill_trees.json)
-- [en/character_skills.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_skills.json) 
-- [en/characters.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/characters.json) 
-- [en/descriptions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/descriptions.json) 
-- [en/elements.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/elements.json) 
-- [en/items.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/items.json) 
-- [en/light_cone_promotions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cone_promotions.json) 
-- [en/light_cone_ranks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cone_ranks.json) 
-- [en/light_cones.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cones.json) 
-- [en/nickname.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/nickname.json) 
-- [en/paths.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/paths.json) 
-- [en/properties.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/properties.json) 
-- [en/relic_main_affixes.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_main_affixes.json) 
-- [en/relic_sets.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_sets.json) 
-- [en/relic_sub_affixes.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_sub_affixes.json) 
-- [en/relics.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relics.json) 
-- [en/simulated_blessings.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_blessings.json) 
-- [en/simulated_blocks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_blocks.json) 
-- [en/simulated_curios.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_curios.json) 
+- [en/character_skills.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/character_skills.json)
+- [en/characters.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/characters.json)
+- [en/descriptions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/descriptions.json)
+- [en/elements.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/elements.json)
+- [en/items.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/items.json)
+- [en/light_cone_promotions.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cone_promotions.json)
+- [en/light_cone_ranks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cone_ranks.json)
+- [en/light_cones.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/light_cones.json)
+- [en/nickname.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/nickname.json)
+- [en/paths.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/paths.json)
+- [en/properties.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/properties.json)
+- [en/relic_main_affixes.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_main_affixes.json)
+- [en/relic_sets.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_sets.json)
+- [en/relic_sub_affixes.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relic_sub_affixes.json)
+- [en/relics.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/relics.json)
+- [en/simulated_blessings.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_blessings.json)
+- [en/simulated_blocks.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_blocks.json)
+- [en/simulated_curios.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_curios.json)
 - [en/simulated_events.json](https://vizualabstract.github.io/StarRailStaticAPI/db/en/simulated_events.json)
 
 ## Images
@@ -111,7 +112,6 @@ This means zero file editing.
 ```
 https://{base_image_url}/{asset_path}
 ```
-
 
 So while the data may provide an image URL, it's only a path. For example, March 7th:
 
@@ -173,7 +173,7 @@ See [VizualAbstract/star-rail-api](https://github.com/VizualAbstract/star-rail-a
 **Example**
 
 ```javascript
-import { CharacterIDs, CharactersClient } from 'star-rail-api';
+import { CharacterIDs, CharactersClient } from "star-rail-api";
 
 const characters = new CharactersClient();
 
@@ -193,7 +193,7 @@ characters
 
 ## Links
 
-- StarRailStaticAPI query client: [VizualAbstract/star-rail-api](https://github.com/VizualAbstract/star-rail-api) 
+- StarRailStaticAPI query client: [VizualAbstract/star-rail-api](https://github.com/VizualAbstract/star-rail-api)
 - StarRailRes: [Mar-7th/StarRailRes](https://github.com/Mar-7th/StarRailRes)
 - Game data source: [Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData)
 - My other project, Relic Harmonizer: [https://relicharmonizer.com](https://relicharmonizer.com)
